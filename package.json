@@ -36,6 +36,7 @@
     "gulp-tasks-registrator": "^0.1.1",
     "gulp-uglify": "^1.5.1",
     "gulp-util": "^3.0.7",
+    "gulp-webserver": "^0.9.1",
     "less-plugin-autoprefix": "^1.5.1",
     "less-plugin-clean-css": "^1.5.1",
     "lodash": "^3.10.1",
