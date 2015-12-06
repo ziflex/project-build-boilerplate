@@ -43,6 +43,9 @@
     "mochify": "^2.14.2",
     "mochify-istanbul": "^2.3.0",
     "run-sequence": "^1.1.5",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "vinyl-transform": "^1.0.0",
     "watchify": "^3.6.1"
   },
   "browserify": {
