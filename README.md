@@ -1,2 +1,2 @@
 # Project Build Boilerplate
-Starter for your project build system.
+Boilerplate for your project build system.
