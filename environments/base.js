@@ -20,7 +20,7 @@ module.exports = {
         report: 'spec'
     },
     coverage: {
-        report: ['text', 'cobertura', 'json']
+        report: ['text', 'html', 'json']
     },
     paths: {
         tests: path.join(ROOT_DIR, 'test'),
