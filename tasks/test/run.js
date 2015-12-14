@@ -14,7 +14,7 @@ module.exports = function factory($, env, extraOptions) {
             .transform('babelify')
             .plugin('mochify-istanbul', {
                 // Plugin options
-                intrumenter: 'babel-istanbul',
+                instrumenter: 'babel-istanbul',
                 // Reporter options
                 report: env.coverage.report,
                 dir: env.paths.coverage
