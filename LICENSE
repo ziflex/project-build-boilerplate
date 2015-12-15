@@ -1,19 +1,4 @@
-# Project Build Boilerplate
-Boilerplate for your project build system.
-
-
-## Installation
-
-```sh
-
-    npm install
-
-```
-
-
-## License
-
-Copyright (C) 2015 Tim Voronov
+Copyright (C) 2015 Tim Voronov (ziflex@gmail.com)
 
 Permission is hereby granted, free of charge, to any person obtaining a copy
 of this software and associated documentation files (the "Software"), to deal
