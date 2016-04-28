@@ -1,11 +1,10 @@
-/*eslint-disable */
-var path = require('path');
+import path from 'path';
 
-var ROOT_DIR = path.resolve(__dirname, '..');
-var SRC_DIR = path.join(ROOT_DIR, 'src');
-var DIST_DIR = path.join(ROOT_DIR, 'dist');
+const ROOT_DIR = path.resolve(__dirname, '..');
+const SRC_DIR = path.join(ROOT_DIR, 'src');
+const DIST_DIR = path.join(ROOT_DIR, 'dist');
 
-module.exports = {
+export default {
     name: 'base',
     build: {
         debug: false,
@@ -23,6 +22,7 @@ module.exports = {
         report: ['text', 'html', 'json']
     },
     paths: {
+        root: ROOT_DIR,
         tests: path.join(ROOT_DIR, 'test'),
         coverage: path.join(ROOT_DIR, 'coverage'),
         doc: path.join(ROOT_DIR, 'doc'),
@@ -42,4 +42,3 @@ module.exports = {
         }
     }
 };
-/*eslint-enable */
