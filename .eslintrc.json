@@ -15,8 +15,6 @@
   "rules": {
     "indent": [2, 4],
     "comma-dangle": 0,
-    "id-length": 0,
-    "new-cap": 0,
-    "arrow-body-style": 0
+    "id-length": 0
   }
 }

@@ -48,24 +48,20 @@ registerTasks({
     group: true
 });
 
-$.gulp.task('build', (done) => {
-    return runSequence(
-        'lint',
-        'test',
-        'clean',
-        [
-            'build:scripts',
-            'build:styles',
-            'build:assets'
-        ],
-        'build:html',
-        done
-    );
-});
+$.gulp.task('build', done => runSequence(
+    'lint',
+    'test',
+    'clean',
+    [
+        'build:scripts',
+        'build:styles',
+        'build:assets'
+    ],
+    'build:html',
+    done
+));
 
-$.gulp.task('doc', (done) => {
-    return runSequence('clean:doc', 'build:doc', done);
-});
+$.gulp.task('doc', done => runSequence('clean:doc', 'build:doc', done));
 
 $.gulp.task('default', (done) => {
     runSequence('build', ['serve', 'watch'], done);
